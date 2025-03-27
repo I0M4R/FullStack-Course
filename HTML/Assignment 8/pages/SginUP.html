@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <a href="../index.html"><i class="fa-solid fa-house fa-5x"></i></a>
+    <h1>SignUp Page</h1>
+    <h2>Please Fill This Fields</h2>
+    <br />
+    <label for="email">Email : </label>
+    <input type="Email" id="email" name="email" />
+    <br />
+    <label for="name">Name : </label>
+    <input type="text" id="name" name="name" />
+    <br />
+    <label for="password">Password : </label>
+    <input type="password" name="pass" id="password" />
+    <br />
+    <label for="pic">Please enter Your Photo</label>
+    <input type="file" name="files" id="pic" />
+    <br />
+    <label for="BD"> Please enter your birth date </label>
+    <input type="date" name="BD" id="BD" />
+    <br />
+    <h4>Choose your gender</h4>
+    <label for="m">Male</label>
+    <input type="radio" name="gender" id="m" />
+    <label for="f">Female</label>
+    <input type="radio" name="gender" id="f" />
+    <br />
+    <h4>Choose your favorites platforms</h4>
+    <table>
+      <tbody>
+        <tr>
+          <td><label for="FB">Facebook</label></td>
+          <td><input type="checkbox" name="Facebook" id="FB" /></td>
+        </tr>
+        <tr>
+          <td>
+            <label for="insta">Instagram</label>
+          </td>
+          <td>
+            <input type="checkbox" name="Instagram" id="insta" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="X">X</label>
+          </td>
+          <td>
+            <input type="checkbox" name="X" id="X" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="YT">Youtube</label>
+          </td>
+          <td>
+            <input type="checkbox" name="youtube" id="YT" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h4>Country</h4>
+    <select name="ctry" id="">
+      <optgroup label="Africa">
+        <option value="">Egypt</option>
+        <option value="">Naigria</option>
+        <option value="">South Africa</option>
+        <option value="">Moraoco</option>
+      </optgroup>
+      <optgroup label="North America">
+        <option value="">US</option>
+        <option value="">Canada</option>
+        <option value="">Mexico</option>
+        <option value="">Panama</option>
+      </optgroup>
+      <optgroup label="South America">
+        <option value="">Brazil</option>
+        <option value="">Argentina</option>
+        <option value="">Colombia</option>
+        <option value="">Chile</option>
+      </optgroup>
+    </select>
+    <h4>Choose your data</h4>
+    <input list="CC" name="" id="Countrylistdata" />
+    <datalist id="CC">
+      <option>US</option>
+      <option>Canada</option>
+      <option>Mexico</option>
+      <option>Panama</option>
+      <option>US</option>
+      <option>Canada</option>
+      <option>Mexico</option>
+      <option>Panama</option>
+      <option>Brazil</option>
+      <option>Argentina</option>
+      <option>Colombia</option>
+      <option>Chile</option>
+    </datalist>
+    <br />
+    <br />
+    <input type="submit" name="" id="" />
+    <h3>If You Have Account You Can login here</h3>
+    <a href="./Login.html"> <i class="fa-solid fa-door-open fa-3x"></i></a>
+  </body>
+</html>
