@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "pacifico";
+}
+
+header {
+  display: flex;
+  height: 100px;
+  background-color: sandybrown;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  margin-left: 30px;
+  flex-grow: 2;
+}
+.linknav {
+  flex-grow: 2;
+}
+.linknav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+.icon {
+  width: 130px;
+}
+.HEART,
+.CART {
+  flex-grow: 1;
+  color: aliceblue;
+  padding: 20px;
+  font-size: 20px;
+}
+
+nav img {
+  width: 100%;
+  object-fit: cover;
+}
