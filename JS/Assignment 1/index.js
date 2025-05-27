@@ -125,3 +125,15 @@ function fa(n) {
   return n * fa(n - 1);
 }
 console.log(fa(5));
+// Q 14
+var i = "racecar";
+function revers(i) {
+  for (var x = i.length; x >= 0; x--) {
+    for (var c = 0; c <= i.length; c++) {
+      if (i[c] == i[x]) {
+        console.log(true);
+      }
+    }
+  }
+}
+console.log(revers(i));
